@@ -42,3 +42,11 @@ OutlookToEmail 周期性的检查这个字段，并根据字段内容对这一�
     - Mark this mail as readed in  MS Outlook.  
     - 在MS Outlook中将此邮件标记为已读.  
 
+## How to use(怎么用)?  
+- Delete mail from Outlook(从Outlook删除邮件):
+    - write string "delete" (without double quotes) to field 'action' of table 'email'
+    - 向表email的字段action写入字符串delete
+- Mark mail as 'Readed' in Outlook(将Outlook中的某个email标记为'已读')
+    - write string "markreaded" (without double quotes) to field 'action' of table 'email'
+    - 向表email的字段action写入字符串markreaded
+
