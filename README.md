@@ -32,7 +32,7 @@ c#
 
 ## Field 'action' in table 'email'(表email中的action字段):  
 OutlookToEmail will check this field periodically to execute operate to this mail item.  
-OutlookToEmail 周期行的检查这个字段，并根据字段内容对这一条mail执行相应的操作.  
+OutlookToEmail 周期性的检查这个字段，并根据字段内容对这一条mail执行相应的操作.  
 
 ### Right now following string as operations was supported(目前支持以下字符串作为操作):
 - "delete"
