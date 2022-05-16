@@ -3,6 +3,10 @@
 Export emails from MS Outlook to mysql/mariadb periodically.  
 定期将MSOutlook 中的电子邮件导入mysql/mariadb.  
 
+## Why OutlookToMariadb(有啥用)?
+- Use SQL manipulate emails out of outlook(使用sql语句在outlook外操作邮件)  
+- Write you own anti-spam tool with in programming language(使用任何编程语言编写垃圾邮件过滤器).
+
 ## Development Tool(开发工具):  
 Visual Studio 2022  
 c#  
@@ -38,6 +42,3 @@ OutlookToEmail 周期行的检查这个字段，并根据字段内容对这一�
     - Mark this mail as readed in  MS Outlook.  
     - 在MS Outlook中将此邮件标记为已读.  
 
-## Why OutlookToMariadb(有啥用)?
-- Use SQL manipulate emails out of outlook(使用sql语句在outlook外操作邮件)  
-- Write you own anti-spam tool with in programming language(使用任何编程语言编写垃圾邮件过滤器).
