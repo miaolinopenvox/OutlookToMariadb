@@ -20,18 +20,18 @@ c#
 
 ## Database Tables(数据库表):  
 ### email: 
-- Email content and with allmost all fields from MSOutlook.   
+- Email content and allmost all fields from MSOutlook MailItem Object.   
 - 来自MSOutlook的email 内容和大多数必要的字段  
 ### folders:  
-- All the FullPathName of folders in MSOutlook.  
-- MSOutlook中所有的子文件夹全路径名。
+- FullPathName/StoreId/EntryId of all folders in MSOutlook.  
+- MSOutlook中所有的子文件夹全路径名/StoreId/EntryId。
 ### fulltext_email: 
 - A view of table 'email' that bombine all the human readable text fields in to 'fulltexts' fields.  
 - 来自表email的视图，将所有表email的文本字段合并成为'fulltexts'字段，方便全文检索。   
 
 
 ## Field 'action' in table 'email'(表email中的action字段):  
-OutlookToEmail will check this field periodically to execute operate to this mail item.  
+OutlookToEmail scan table email periodically, execute operation in this field to this mail item.  
 OutlookToEmail 周期性的检查这个字段，并根据字段内容对这一条mail执行相应的操作.  
 
 ### Right now following string as operations was supported(目前支持以下字符串作为操作):
